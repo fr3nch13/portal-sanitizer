@@ -1,0 +1,37 @@
+{
+	"name": "nih-fo/portal-sanitizer",
+	"description": "Portal: Sanitizer",
+	"type": "project",
+	"keywords": ["project", "application", "sanitizer"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Brian French",
+			"role": "Developer"
+		},
+		{
+			"name": "Joshua Knust",
+			"role": "Manager"
+		} 
+	],
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"require": {
+		"nih-fo/plugin-utilities": "1.*",
+		"nih-fo/plugin-php-pdf": "1.*"
+	}, 
+	"config": {
+		"vendor-dir": "Vendor/",
+		"secure-http": false
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"chmod 755 ./bin/*",
+			"./bin/post-install-cmd.sh"
+		],
+		"post-update-cmd": [
+			"chmod 755 ./bin/*",
+			"./bin/post-install-cmd.sh"
+		]
+	}
+}
