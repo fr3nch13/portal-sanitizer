@@ -3,7 +3,7 @@
 	"description": "Portal: Sanitizer",
 	"type": "project",
 	"keywords": ["project", "application", "sanitizer"],
-	"license": "MIT",
+	"license": "mit",
 	"authors": [
 		{
 			"name": "Brian French",
