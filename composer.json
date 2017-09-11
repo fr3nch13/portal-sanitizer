@@ -1,5 +1,5 @@
 {
-	"name": "nih-fo/portal-sanitizer",
+	"name": "fr3nch13/portal-sanitizer",
 	"description": "Portal: Sanitizer",
 	"type": "project",
 	"keywords": ["project", "application", "sanitizer"],
@@ -17,8 +17,8 @@
 	"minimum-stability" : "dev",
 	"prefer-stable" : true,
 	"require": {
-		"nih-fo/plugin-utilities": "1.*",
-		"nih-fo/plugin-php-pdf": "1.*"
+		"fr3nch13/plugin-utilities": "1.*",
+		"fr3nch13/plugin-php-pdf": "1.*"
 	}, 
 	"config": {
 		"vendor-dir": "Vendor/",
